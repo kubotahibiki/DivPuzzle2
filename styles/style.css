@@ -3,32 +3,26 @@
 header,main,footer{
   width:  400px;
 }
-
 .clearfix:after {
   content: "";
   display: block;
   clear: both;
 }
-.clearfix:before {
-  content: "";
-  display: block;
-  clear: both;
-} 
 .clearfix {
   display: block;
 }
-#header{
+.h_box{
   height: 100px;
   background: #ff0000;
 }
-#box1{
+.box1{
   width: 150px;
   height:250px;
   background: #00ff51;
   float:left;
 }
 .main_right{
-  float:right;
+  float:left;
 }
 .right_top{
   height:150px;
@@ -36,28 +30,28 @@ header,main,footer{
 .left{
   float:left;
 }
-#box2{
+.box2{
   width: 150px;
   height:50px;
   background: #cc00db;
 }
-#box3{
+.box3{
   width: 150px;
   height:100px;
   background: #0093b7;
 }
-#box4{
+.box4{
   width: 100px;
   height:150px;
   background: #ff9a6b;
-  float:right;
+  float:left;
 }
-#box5{
+.box5{
   width:250px;
   height:100px;
   background: #8c2727;
 }
-#footer{
+.f_box{
   height: 100px;
   background: #ffe600;
 }
